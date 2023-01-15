@@ -1,7 +1,7 @@
-# ethers-ozrelayer-middleware
+# 🧙‍♂️ ethers-ozrelayer-middleware
 
-Implements a custom middleware for (http://)[ethers-rs] to send transactions through (http://)[OpenZeppelin Relayer].
-It's using the crate (https://github.com/lucdew/cognito-srp-auth)[cognito-srp-auth] for cognito authentication under the hood.
+Implements a custom middleware for [ethers-rs](https://github.com/gakonst/ethers-rs) to send transactions through [OpenZeppelin Relayer](https://docs.openzeppelin.com/defender/relay).
+It's using [cognito-srp-auth](https://github.com/lucdew/cognito-srp-auth) for cognito authentication under the hood.
 
 Access tokens are stored in memory and refreshed when expired.
 
