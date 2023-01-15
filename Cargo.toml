@@ -1,0 +1,17 @@
+[package]
+name = "ethers-ozdefender-middleware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-trait = { version = "0.1.50", default-features = false }
+chrono = "0.4.23"
+cognitoauth = { git = "https://github.com/lucdew/cognito-srp-auth.git" }
+ethers = { git = "https://github.com/gakonst/ethers-rs.git" }
+eyre = "0.6.8"
+lazy_static = "1.4.0"
+reqwest = "0.11.13"
+serde = { version = "1.0.130", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+thiserror = { version = "1.0", default-features = false }
+uuid = "1.2.2"
