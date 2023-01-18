@@ -1,4 +1,3 @@
-mod middleware;
 use std::{env, str::FromStr};
 
 use ethers::{
@@ -7,8 +6,8 @@ use ethers::{
     providers::{Http, Middleware, Provider},
     types::TransactionRequest,
 };
+use ethers_ozdefender_middleware::OzRelayerMiddleware;
 use eyre::Result;
-use middleware::OzRelayerMiddleware;
 use tokio::time::Instant;
 use uuid::Uuid;
 

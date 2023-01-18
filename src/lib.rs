@@ -3,8 +3,7 @@ use cognitoauth::cognito_srp_auth::{auth, CognitoAuthInput};
 use ethers::{
     core::types::{transaction::eip2718::TypedTransaction, BlockId, U256},
     providers::{FromErr, Middleware, PendingTransaction},
-    types::{Bytes, NameOrAddress, H256},
-    utils::__serde_json::{json, Value},
+    types::{Bytes, NameOrAddress, H256}, utils::__serde_json::{json, Value},
 };
 use reqwest::StatusCode;
 use serde::Serialize;
